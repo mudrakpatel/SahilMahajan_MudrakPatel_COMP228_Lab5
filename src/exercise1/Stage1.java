@@ -12,6 +12,7 @@ import javafx.stage.Stage;
 import javafx.scene.layout.GridPane;
 import javafx.scene.control.Label;
 import javafx.scene.control.Button;
+import javax.swing.JOptionPane;
 
 /**
  * Created by Mudrak and Sahil on 11/27/2016.
@@ -93,6 +94,15 @@ public class Stage1 extends Application {
         gridPaneLayout.setPadding(new Insets(11.5, 12.5, 10.5, 5.5));
         gridPaneLayout.setHgap(6.0);
         gridPaneLayout.setVgap(6.0);
+        /**
+         * Add event listener to editButton and displayButton
+         * */
+        editButton.setOnAction(event -> {
+            JOptionPane.showMessageDialog(null,"You clicked edit button.");
+        });
+        displayButton.setOnAction(event -> {
+            JOptionPane.showMessageDialog(null,"You clicked display button.");
+        });
         /**
          * Setting up the scene
          * */
