@@ -101,12 +101,21 @@ public class Stage1 extends Application {
             JOptionPane.showMessageDialog(null,"You clicked edit button.");
         });
         displayButton.setOnAction(event -> {
-            JOptionPane.showMessageDialog(null,"You clicked display button.");
+            JOptionPane.showMessageDialog(null,"You clicked displaybutton.");
         });
         /**
          * Setting up the scene
          * */
         primaryStage.setScene(new Scene(gridPaneLayout,400,350));
         primaryStage.show();
+
+        /**
+         * The database connection part
+         * */
+        try{
+
+        } catch(Exception exception){
+
+        }
     }
 }
