@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fe05fde-cae9-4907-84cc-00366516e327" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/src.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SahilMahajan_MudrakPatel_COMP228Lab5/exercise1/Stage1.class" afterPath="$PROJECT_DIR$/out/production/SahilMahajan_MudrakPatel_COMP228Lab5/exercise1/Stage1.class" />
+    <list default="true" id="2fe05fde-cae9-4907-84cc-00366516e327" name="Default" comment="Added try catch block and started database connection part">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SahilMahajan_MudrakPatel_COMP228Lab5.iml" afterPath="$PROJECT_DIR$/SahilMahajan_MudrakPatel_COMP228Lab5.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercise1/Stage1.java" afterPath="$PROJECT_DIR$/src/exercise1/Stage1.java" />
     </list>
     <ignored path="SahilMahajan_MudrakPatel_COMP228Lab5.iws" />
@@ -39,12 +36,13 @@
       <file leaf-file-name="Stage1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exercise1/Stage1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+            <state relative-caret-position="1719">
+              <caret line="125" column="87" selection-start-line="125" selection-start-column="87" selection-end-line="125" selection-end-column="87" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1044#1045#0" expanded="true" />
-                <element signature="e#1072#1073#0" expanded="true" />
+                <element signature="e#1381#1382#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+                <marker date="1480653995476" expanded="true" signature="5223:5245" ph="SELECT * FRO... GameJava" />
               </folding>
             </state>
           </provider>
@@ -127,7 +125,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -140,7 +138,31 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SahilMahajan_MudrakPatel_COMP228Lab5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SahilMahajan_MudrakPatel_COMP228Lab5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SahilMahajan_MudrakPatel_COMP228Lab5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.TFS" />
@@ -151,7 +173,7 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-5.1.40-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sqljdbc4.jar!/" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RunManager" selected="Application.Stage1">
@@ -620,7 +642,7 @@
       <workItem from="1480294963870" duration="7236000" />
       <workItem from="1480378742523" duration="3455000" />
       <workItem from="1480575759883" duration="5555000" />
-      <workItem from="1480627806934" duration="412000" />
+      <workItem from="1480627806934" duration="5951000" />
     </task>
     <task id="LOCAL-00001" summary="Added event listener to editButton and displayButton">
       <created>1480392035784</created>
@@ -629,15 +651,22 @@
       <option name="project" value="LOCAL" />
       <updated>1480392035784</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added try catch block and started database connection part">
+      <created>1480628280570</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1480628280570</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16658000" />
+    <option name="totallyTimeSpent" value="22197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -645,12 +674,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2774524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329429" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -680,7 +709,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added event listener to editButton and displayButton" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added event listener to editButton and displayButton" />
+    <MESSAGE value="Added try catch block and started database connection part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added try catch block and started database connection part" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -697,8 +727,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <marker date="1480653995476" expanded="true" signature="5223:5245" ph="SELECT * FRO... GameJava" />
           </folding>
         </state>
       </provider>
@@ -719,12 +750,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise1/Stage1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="117" column="16" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="16" />
+        <state relative-caret-position="1719">
+          <caret line="125" column="87" selection-start-line="125" selection-start-column="87" selection-end-line="125" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1044#1045#0" expanded="true" />
-            <element signature="e#1072#1073#0" expanded="true" />
+            <element signature="e#1381#1382#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+            <marker date="1480653995476" expanded="true" signature="5223:5245" ph="SELECT * FRO... GameJava" />
           </folding>
         </state>
       </provider>

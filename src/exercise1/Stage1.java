@@ -13,6 +13,10 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.control.Label;
 import javafx.scene.control.Button;
 import javax.swing.JOptionPane;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
 
 /**
  * Created by Mudrak and Sahil on 11/27/2016.
@@ -25,6 +29,11 @@ public class Stage1 extends Application {
     private static TextField firstNameTextField, playerIDTextField, lastNameTextField, addressTextField, postalcodetextField, provinceTextField, phonetextField, gametextField;
     private static Button editButton, displayButton;
     private static GridPane gridPaneLayout;
+    //Database variables
+    private static final String URL = "jdbc:sqlserver://sahil.database.windows.net:1433;";
+    private static final String username = "sahil";
+    private static final String password = "Azure754";
+
     /**
      * main method
      * */
@@ -113,9 +122,15 @@ public class Stage1 extends Application {
          * The database connection part
          * */
         try{
+            //1) Get a connection to the mysql database
+            Connection connection = DriverManager.getConnection(URL, username, password);
+            //2) Create a sql statement
+            Statement sqlStatement = connection.createStatement();
+            //3) Execute sql query
+            ResultSet resultSet = sqlStatement.executeQuery("SELECT * FROM GameJava");
 
         } catch(Exception exception){
-
+                JOptionPane.showMessageDialog(null,exception.getStackTrace().toString());
         }
     }
 }
