@@ -15,8 +15,9 @@ import javafx.scene.control.Button;
 import javax.swing.JOptionPane;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.Statement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 /**
  * Created by Mudrak and Sahil on 11/27/2016.
@@ -30,7 +31,7 @@ public class Stage1 extends Application {
     private static Button editButton, displayButton;
     private static GridPane gridPaneLayout;
     //Database variables
-    private static final String URL = "jdbc:sqlserver://sahil.database.windows.net:1433;";
+    private static final String URL = "jdbc:sqlserver://sahil.database.windows.net:1433;database=game_tracker";
     private static final String username = "sahil";
     private static final String password = "Azure754";
 
@@ -110,7 +111,7 @@ public class Stage1 extends Application {
             JOptionPane.showMessageDialog(null,"You clicked edit button.");
         });
         displayButton.setOnAction(event -> {
-            JOptionPane.showMessageDialog(null,"You clicked displaybutton.");
+
         });
         /**
          * Setting up the scene
@@ -128,9 +129,20 @@ public class Stage1 extends Application {
             Statement sqlStatement = connection.createStatement();
             //3) Execute sql query
             ResultSet resultSet = sqlStatement.executeQuery("SELECT * FROM GameJava");
-
+            //4) Process the result set
+            showData(resultSet);
         } catch(Exception exception){
                 JOptionPane.showMessageDialog(null,exception.getStackTrace().toString());
+        }
+    }
+    /**
+     * @method showData
+     * @void
+     * @purpose: This method shows all the default data from the database
+     * */
+    private void showData(ResultSet resultSet) throws SQLException{
+        while(resultSet.next()){
+            System.out.println(resultSet.getString(1));
         }
     }
 }
