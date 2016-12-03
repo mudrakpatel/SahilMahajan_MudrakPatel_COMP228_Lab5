@@ -132,7 +132,8 @@ public class Stage1 extends Application {
             //4) Process the result set
             showData(resultSet);
         } catch(Exception exception){
-                JOptionPane.showMessageDialog(null,exception.getStackTrace().toString());
+//                JOptionPane.showMessageDialog(null,exception.getStackTrace().toString());
+            System.out.println(exception.getStackTrace());
         }
     }
     /**
