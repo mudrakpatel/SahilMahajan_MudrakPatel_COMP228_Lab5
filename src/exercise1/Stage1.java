@@ -31,9 +31,10 @@ public class Stage1 extends Application {
     private static Button editButton, displayButton;
     private static GridPane gridPaneLayout;
     //Database variables
-    private static final String URL = "jdbc:sqlserver://sahil.database.windows.net:1433;database=game_tracker";
-    private static final String username = "sahil";
-    private static final String password = "Azure754";
+    private static final String URL = "jdbc:sqlserver://sahil.database.windows.net:1433;"
+            + "databaseName=game_tracker;"
+            + "user=sahil;"
+            + "password=Azure754";
 
     /**
      * main method
@@ -123,21 +124,37 @@ public class Stage1 extends Application {
          * The database connection part
          * */
         try{
-            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            System.out.printf("Connecting to database ... \n");
-            //1) Get a connection to the mysql database
-            Connection connection = DriverManager.getConnection(URL, username, password);
-            System.out.printf("Successfully connected to: "+ connection.getMetaData().getURL() + "\n");
-            //2) Create a sql statement
-            Statement sqlStatement = connection.createStatement();
-            System.out.println("Statement created");
-            //3) Execute sql query
-            ResultSet resultSet = sqlStatement.executeQuery("SELECT * FROM GameJava.game_title");
-            System.out.println("Query executed successfully.");
-            //4) Process the result set
-            System.out.println(resultSet.getString("game_title"));
-        } catch(Exception exception){
-            System.out.println(exception.getStackTrace());
+            System.out.println("Connecting to database...");
+            //1) Get a connection to the database
+            Connection connection = DriverManager.getConnection(URL);
+            System.out.println("Connected to database...");
+            //2) Create a statement using the connection object
+            Statement statement = connection.createStatement();
+            System.out.println("Statement created...");
+            //3) Execute a query using the statement object by creating a result set
+            ResultSet resultSet = statement.executeQuery("SELECT * FROM GameJava");
+            System.out.println("Query successfully executed...");
+            //4) Print out the result by calling the getResultSetData method
+            // and pass the resultSet as an argument
+            System.out.printf("<<The data of GameJava table>>\n"
+                    + getResultSetData(resultSet));
         }
+        catch(SQLException exception){
+            JOptionPane.showMessageDialog(null,"Look at console for error details...");
+            System.out.println(exception.getStackTrace().getClass());
+        }
+    }
+    /**
+     * @method getResultSetData
+     * @return => String
+     * @purpose => To get the resultSet data
+     * */
+    private static String getResultSetData(ResultSet resultSet) throws SQLException{
+        String resultString = "";
+        while(resultSet.next()){
+            resultString = resultString + "<<" +resultSet.getString("game_id") + ">> " +
+                    "<<" + resultSet.getString("game_title") + ">>" + "\n";
+        }
+        return resultString;
     }
 }
