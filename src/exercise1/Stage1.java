@@ -123,27 +123,21 @@ public class Stage1 extends Application {
          * The database connection part
          * */
         try{
+            Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
+            System.out.printf("Connecting to database ... \n");
             //1) Get a connection to the mysql database
             Connection connection = DriverManager.getConnection(URL, username, password);
+            System.out.printf("Successfully connected to: "+ connection.getMetaData().getURL() + "\n");
             //2) Create a sql statement
             Statement sqlStatement = connection.createStatement();
+            System.out.println("Statement created");
             //3) Execute sql query
-            ResultSet resultSet = sqlStatement.executeQuery("SELECT * FROM GameJava");
+            ResultSet resultSet = sqlStatement.executeQuery("SELECT * FROM GameJava.game_title");
+            System.out.println("Query executed successfully.");
             //4) Process the result set
-            showData(resultSet);
+            System.out.println(resultSet.getString("game_title"));
         } catch(Exception exception){
-//                JOptionPane.showMessageDialog(null,exception.getStackTrace().toString());
             System.out.println(exception.getStackTrace());
-        }
-    }
-    /**
-     * @method showData
-     * @void
-     * @purpose: This method shows all the default data from the database
-     * */
-    private void showData(ResultSet resultSet) throws SQLException{
-        while(resultSet.next()){
-            System.out.println(resultSet.getString(1));
         }
     }
 }
