@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fe05fde-cae9-4907-84cc-00366516e327" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/SahilMahajan_MudrakPatel_COMP228Lab5/exercise1/Stage1.class" afterPath="$PROJECT_DIR$/out/production/SahilMahajan_MudrakPatel_COMP228Lab5/exercise1/Stage1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/exercise1/Stage1.java" afterPath="$PROJECT_DIR$/src/exercise1/Stage1.java" />
-    </list>
+    <list default="true" id="2fe05fde-cae9-4907-84cc-00366516e327" name="Default" comment="" />
     <ignored path="SahilMahajan_MudrakPatel_COMP228Lab5.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -52,24 +47,6 @@
         <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
       </PATH_ELEMENT>
     </PATH>
-    <PATH>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="sahilDB" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" />
-        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$GroupNode" />
-      </PATH_ELEMENT>
-      <PATH_ELEMENT>
-        <option name="myItemId" value="GameJava" />
-        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
-      </PATH_ELEMENT>
-    </PATH>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -80,11 +57,23 @@
       <file leaf-file-name="Stage1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exercise1/Stage1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2074">
-              <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+            <state relative-caret-position="175">
+              <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1480839014990" expanded="true" signature="5393:5415" ph="SELECT * FRO... GameJava" />
+                <marker date="1481279525882" expanded="true" signature="5202:5225" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5337" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5344" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5346" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5409" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5472" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5534" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5595" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5659" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5721" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5780" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5837" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="5202:5838" ph="INSERT INTO PlayerJava... " />
+                <marker date="1481279525882" expanded="true" signature="6949:6971" ph="SELECT * FRO... GameJava" />
               </folding>
             </state>
           </provider>
@@ -184,9 +173,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -205,26 +193,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SahilMahajan_MudrakPatel_COMP228Lab5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SahilMahajan_MudrakPatel_COMP228Lab5" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="exercise1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -329,10 +300,7 @@
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
@@ -355,10 +323,7 @@
       <Profilers>
         <option name="GAPID_DISABLE_PCS" value="false" />
       </Profilers>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-      </method>
+      <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -752,7 +717,8 @@
       <workItem from="1480575759883" duration="5555000" />
       <workItem from="1480627806934" duration="8975000" />
       <workItem from="1480725028767" duration="884000" />
-      <workItem from="1480809893470" duration="15062000" />
+      <workItem from="1480809893470" duration="15179000" />
+      <workItem from="1481256608424" duration="9739000" />
     </task>
     <task id="LOCAL-00001" summary="Added event listener to editButton and displayButton">
       <created>1480392035784</created>
@@ -789,15 +755,22 @@
       <option name="project" value="LOCAL" />
       <updated>1480820910977</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Database connection and data display are OK.">
+      <created>1480839189454</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1480839189454</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41167000" />
+    <option name="totallyTimeSpent" value="51023000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -811,8 +784,9 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17423134" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19912152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -824,7 +798,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -844,7 +817,8 @@
     <MESSAGE value="Added proper sql jdbc driver" />
     <MESSAGE value="Database data output issues" />
     <MESSAGE value="Facing some issues in fetching data from the database table" />
-    <option name="LAST_COMMIT_MESSAGE" value="Facing some issues in fetching data from the database table" />
+    <MESSAGE value="Database connection and data display are OK." />
+    <option name="LAST_COMMIT_MESSAGE" value="Database connection and data display are OK." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -860,8 +834,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1480839014990" expanded="true" signature="5393:5415" ph="SELECT * FRO... GameJava" />
+            <marker date="1481279525882" expanded="true" signature="5202:5225" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5337" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5344" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5346" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5409" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5472" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5534" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5595" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5659" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5721" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5780" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5837" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5838" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="6949:6971" ph="SELECT * FRO... GameJava" />
           </folding>
         </state>
       </provider>
@@ -871,8 +857,20 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1480839014990" expanded="true" signature="5393:5415" ph="SELECT * FRO... GameJava" />
+            <marker date="1481279525882" expanded="true" signature="5202:5225" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5337" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5344" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5346" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5409" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5472" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5534" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5595" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5659" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5721" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5780" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5837" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5838" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="6949:6971" ph="SELECT * FRO... GameJava" />
           </folding>
         </state>
       </provider>
@@ -882,8 +880,43 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1480839014990" expanded="true" signature="5393:5415" ph="SELECT * FRO... GameJava" />
+            <marker date="1481279525882" expanded="true" signature="5202:5225" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5337" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5344" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5346" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5409" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5472" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5534" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5595" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5659" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5721" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5780" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5837" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5838" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="6949:6971" ph="SELECT * FRO... GameJava" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise1/Stage1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1481279525882" expanded="true" signature="5202:5225" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5337" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5344" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5346" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5409" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5472" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5534" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5595" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5659" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5721" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5780" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5837" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5838" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="6949:6971" ph="SELECT * FRO... GameJava" />
           </folding>
         </state>
       </provider>
@@ -907,51 +940,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/b451f69a/36aea31e-96e9-49f8-ac57-ab07426807b9/game_tracker.dbo.game">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exercise1/DataTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exercise1/DataTest.java" />
     <entry file="dbDummy://dbtable:/b451f69a/36aea31e-96e9-49f8-ac57-ab07426807b9/game_tracker.dbo.GameJava">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="3756" column="0" selection-start-line="3756" selection-start-column="0" selection-end-line="3756" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/b451f69a/36aea31e-96e9-49f8-ac57-ab07426807b9/game_tracker.dbo.PlayerJava">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exercise1/Stage1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2074">
-          <caret line="124" column="13" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
+        <state relative-caret-position="175">
+          <caret line="178" column="31" selection-start-line="178" selection-start-column="31" selection-end-line="178" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1480839014990" expanded="true" signature="5393:5415" ph="SELECT * FRO... GameJava" />
+            <marker date="1481279525882" expanded="true" signature="5202:5225" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5337" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5344" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5346" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5409" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5472" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5534" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5595" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5659" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5721" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5780" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5837" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="5202:5838" ph="INSERT INTO PlayerJava... " />
+            <marker date="1481279525882" expanded="true" signature="6949:6971" ph="SELECT * FRO... GameJava" />
           </folding>
         </state>
       </provider>

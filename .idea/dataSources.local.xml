@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="sahilDB" uuid="36aea31e-96e9-49f8-ac57-ab07426807b9">
+      <secret-storage>memory</secret-storage>
+      <user-name>sahil</user-name>
+      <introspection-scope>*:dbo|game_tracker:*</introspection-scope>
+      <resolve-scope>game_tracker:*</resolve-scope>
+    </data-source>
+  </component>
+</project>
