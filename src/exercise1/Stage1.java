@@ -74,7 +74,7 @@ public class Stage1 extends Application {
         phonetextField = new TextField();
         gametextField = new TextField();
         addInfoButton = new Button("Add info");
-        displayButton = new Button("GameJava");
+        displayButton = new Button("Display");
         gridPaneLayout = new GridPane();
         /**
          * Add the components to the gridPaneLayout
@@ -127,17 +127,32 @@ public class Stage1 extends Application {
                 statement = connection.createStatement();
                 System.out.println("Statement created...");
                 //3) Execute a query using the statement object by creating a result set
-                statement.executeUpdate("INSERT INTO PlayerJava " +
-                        "(player_id,first_name,last_name,address,postal_code,province,phone_number,gameName) VALUES ('" +
-                        playerIDTextField.getText() + "','" +
-                        firstNameTextField.getText() + "','" +
-                        lastNameTextField.getText() + "','" +
-                        addressTextField.getText() + "','" +
-                        postalcodetextField.getText() + "','" +
-                        provinceTextField.getText() + "','" +
-                        phonetextField.getText() + "','" +
-                        gametextField.getText() + "')");
-                JOptionPane.showMessageDialog(null,"Successfully inserted");
+                if(
+                        (playerIDTextField.getText().isEmpty())
+                        || (firstNameTextField.getText().isEmpty())
+                        || (lastNameTextField.getText().isEmpty())
+                        || (addressTextField.getText().isEmpty())
+                        || (provinceTextField.getText().isEmpty())
+                        || (phonetextField.getText().isEmpty())
+                        || (postalcodetextField.getText().isEmpty())
+                        || (gametextField.getText().isEmpty())
+                        ){
+                            JOptionPane.showMessageDialog(null,"All fields are mandatory!");
+                    clearTextFields();
+                }else{
+                    statement.executeUpdate("INSERT INTO PlayerJava " +
+                            "(player_id,first_name,last_name,address,postal_code,province,phone_number,game_name) VALUES ('" +
+                            playerIDTextField.getText() + "','" +
+                            firstNameTextField.getText() + "','" +
+                            lastNameTextField.getText() + "','" +
+                            addressTextField.getText() + "','" +
+                            postalcodetextField.getText() + "','" +
+                            provinceTextField.getText() + "','" +
+                            phonetextField.getText() + "','" +
+                            gametextField.getText() + "')");
+                    JOptionPane.showMessageDialog(null,"Successfully inserted");
+                    clearTextFields();
+                }
             } catch (SQLException exception) {
                 JOptionPane.showMessageDialog(null, "Look at console for error details...");
                 System.out.println(exception.getMessage());
@@ -159,7 +174,7 @@ public class Stage1 extends Application {
                 System.out.println("Statement created...");
                 //3) Execute a query using the statement object by creating a result set
                 /*ResultSet*/
-                resultSet = statement.executeQuery("SELECT * FROM GameJava");
+                resultSet = statement.executeQuery("SELECT * FROM PlayerJava");
                 System.out.println("Query successfully executed...");
                 //4) Print out the result by calling the getResultSetData method
                 // and pass the resultSet as an argument
@@ -184,12 +199,32 @@ public class Stage1 extends Application {
         String resultString = "";
         try {
             while (resultSet.next()) {
-                resultString = resultString + "<<" + resultSet.getString("game_id") + ">> " +
-                        "<<" + resultSet.getString("game_title") + ">>" + "\n";
+                resultString = resultString + "<<" + resultSet.getString("player_id") + ">> " +
+                        "<<" + resultSet.getString("first_name") + ">>" +
+                        "<<" + resultSet.getString("last_name") + ">>" +
+                        "<<" + resultSet.getString("postal_code") + ">>" +
+                        "<<" + resultSet.getString("province") + ">>" +
+                        "<<" + resultSet.getString("phone_number") + ">>" +
+                        "<<" + resultSet.getString("game_name") + ">>" + "\n";
             }
         } catch (NullPointerException exception) {
                 resultSet = null;
         }
         return resultString;
+    }
+    /**
+     * @method clearTextFields
+     * @return => void
+     * @purpose => To clear the textfields
+     * */
+    private static void clearTextFields(){
+        playerIDTextField.clear();
+        firstNameTextField.clear();
+        lastNameTextField.clear();
+        addressTextField.clear();
+        postalcodetextField.clear();
+        provinceTextField.clear();
+        phonetextField.clear();
+        gametextField.clear();
     }
 }

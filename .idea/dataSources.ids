@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
   <data-source name="sahilDB" uuid="36aea31e-96e9-49f8-ac57-ab07426807b9">
-    <database-info product="Microsoft SQL Server" version="12.00.1700" jdbc-version="3.0" driver-name="jTDS Type 4 JDBC Driver for MS SQL Server and Sybase" driver-version="1.3.0">
+    <database-info product="Microsoft SQL Server" version="12.00.1800" jdbc-version="3.0" driver-name="jTDS Type 4 JDBC Driver for MS SQL Server and Sybase" driver-version="1.3.0">
       <extra-name-characters>$#@</extra-name-characters>
       <identifier-quote-string>&quot;</identifier-quote-string>
     </database-info>
@@ -17,7 +17,7 @@
       <schema id="3" parent="1" name="dbo">
         <object-id>1</object-id>
         <visible>1</visible>
-        <introspection-timestamp>2016-12-09.07:24:36.997</introspection-timestamp>
+        <introspection-timestamp>2016-12-11.00:36:50.187</introspection-timestamp>
       </schema>
       <schema id="4" parent="1" name="guest">
         <object-id>2</object-id>
@@ -78,7 +78,7 @@
       <table id="20" parent="3" name="PlayerJava">
         <object-id>402100473</object-id>
         <created-timestamp>2016-11-29.18:15:42.743</created-timestamp>
-        <modified-timestamp>2016-12-09.07:24:35.553</modified-timestamp>
+        <modified-timestamp>2016-12-11.00:36:44.963</modified-timestamp>
       </table>
       <table id="21" parent="3" name="stats">
         <object-id>1013578649</object-id>
@@ -491,7 +491,7 @@
         <mandatory>1</mandatory>
         <data-type>varchar(50)|0</data-type>
       </column>
-      <column id="91" parent="20" name="gameName">
+      <column id="91" parent="20" name="game_name">
         <mandatory>1</mandatory>
         <data-type>varchar(20)|0</data-type>
       </column>
